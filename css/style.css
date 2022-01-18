@@ -1,0 +1,310 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-family: 'Bebas Neue', cursive;
+}
+header{
+    background-color: rgba(32, 6, 6, 0.627);
+    box-shadow: 2px 2px 2px rgb(82, 78, 78);
+}
+.navbar{
+    display:inline-block;
+    font-family: 'Bebas Neue', cursive;
+    /* position: relative; */
+  
+}
+.navbar h1{
+    font-family: 'Allison', cursive;
+    font-size: 30px;
+    display: inline-block;
+    color: yellow;
+    padding: 5px 5px 5px 5px;
+    text-shadow: 2px 2px 2px black;
+}
+.navbar li{
+    display: inline-block;
+    position: relative;
+    left: 670px;
+
+}
+.navbar ul{
+    list-style: none;
+    display: inline-block;
+
+}
+.navbar li a{
+    text-decoration: none;
+    padding: 7px;
+    color: cornsilk;
+    font-size: 15px;
+    text-shadow: 2px 2px 2px black;
+}
+.n1{
+    color: red;
+}
+.n2{
+    color: darkmagenta;
+}
+
+.navbar li a:hover{
+    color: chartreuse;
+}
+
+section::before
+{
+    content: "";
+    background: url("https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80")no-repeat center center/cover ;
+    position: absolute;
+    height: 85%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+
+
+}
+
+
+.container{
+    color: cornsilk;
+    text-shadow: 2px 2px 5px black;
+    border: 2px solid black ;
+    /* z-index: -1; */
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container h1{
+    font-size: 50px;
+    /* font-family: 'Bebas Neue', cursive; */
+}
+.container p{
+    text-align: center;
+    padding: 20px;
+    /* z-index: 1; */
+    
+}
+
+
+.containner1{
+    /* background-color: burlywood; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 2px solid black; */
+    margin-top: 10px;
+    height: 400px;
+    justify-content: space-evenly;
+    z-index: 2;
+}
+.box{
+    display: flex;
+    height: 300px;
+}
+#box:hover{
+    transform: scale(1.5);
+    transition: all 0.5s ease-in ;
+    /* transition: 0.5; */
+    box-shadow: 1px 1px 7px black;
+    z-index: 2;
+}
+
+.box::after{
+    content: " ";
+    /* top: 10%; */
+    background-color: rgb(219, 59, 59);
+    height: 37%;
+    margin-top: 40px;
+    /* margin-left: 10px; */
+    width: 100%;
+    left: 0%;
+    right: 3%;
+    z-index: -1;
+    position: absolute;
+}
+#box1{
+    margin: 20px 20px;
+    display: flex;
+    padding: 10px;
+    width: 200px;
+    flex-direction: column;
+    background-color: white;
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    box-shadow:2px 2px 7px black;
+    /* width: 200px; */
+    /* height: 300px; */
+    align-items: center;
+    /* flex-wrap: wrap; */
+}
+.boxy:hover{
+    transform: scale(1.2);
+    transition: all 0.5s ease-in ;
+    /* transition: 0.5; */
+    box-shadow: 1px 1px 7px black;
+    z-index: 2;
+}
+#box1 img{
+    height: 100px;
+    display: inline-block;
+}
+#box2{
+    margin: 20px 20px;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    background-color: white;
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    box-shadow:2px 2px 7px black;
+    /* width: 200px; */
+    /* height: 300px; */
+    align-items: center;
+    /* flex-wrap: wrap; */
+}
+#box2 img{
+    height: 100px;
+    display: inline-block;
+}
+#box3{
+    margin: 20px 20px;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    background-color: white;
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    box-shadow:2px 2px 7px black;
+    /* width: 200px; */
+    /* height: 300px; */
+    align-items: center;
+    /* justify-content: center; */
+    /* flex-wrap: wrap; */
+}
+#box3 img{
+    height: 100px;
+    display: inline-block;
+}
+#box4{
+    margin: 20px 20px;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    background-color: white;
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    box-shadow:2px 2px 7px black;
+    /* width: 200px; */
+    /* height: 300px; */
+    align-items: center;
+    /* justify-content: center; */
+    /* flex-wrap: wrap; */
+}
+#box4 img{
+    height: 100px;
+    display: inline-block;
+}
+.show::after
+{
+    content: " ";
+    /* top: 10%; */
+    background-color: yellow;
+    height: 65%;
+    margin-top: 55px;
+    margin-left: 50px;
+    width: 90%;
+    z-index: -1;
+    position: absolute;
+
+}
+.gallery{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    /* border: 2px solid black; */
+}
+
+.show{
+    padding: 10px;
+    display: grid;
+    /* box-shadow: 1px 1px 7px black; */
+    grid-template-columns: repeat(5,auto);
+    grid-gap: 1.5rem;
+    margin: 10px 0px;
+}
+.show img{
+    border-radius: 2px;
+    box-shadow: 1px 1px 7px black;
+    width: 215px;
+    height: 145px;
+}
+.show img:hover{
+    transform: scale(1.5);
+    transition: all 0.5s ease-in ;
+    /* transition: 0.5; */
+    box-shadow: 1px 1px 7px black;
+    z-index: 2;
+}
+.map{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 2px solid black; */
+    margin-top: 20px;
+    height: 450px;
+    /* padding: 20px; */
+}
+.img1{
+    height: 400px;
+    border-radius: 2px;
+    box-shadow: 1px 1px 7px black;
+    padding: 10px;
+    margin-top: 15px;
+
+}
+.map img{
+    height: 400px;
+}
+
+.down{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid black; */
+    align-items: center;
+    margin: 20px 0px;
+
+}
+.down h1{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.lists{
+    padding: 10px;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(6,auto);
+}
+.lists img{
+    border-radius: 30px;
+    box-shadow: 0.5px 0.5px 5px black;
+    height: 70px;
+    width: 70px;
+}
+
+footer{
+    background-color: rgb(190, 150, 150);
+    height: 70px;
+    padding: 10px 10px;
+    /* margin: auto; */
+}
+.foot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: blanchedalmond; */
+}
